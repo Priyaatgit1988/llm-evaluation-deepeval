@@ -330,14 +330,27 @@ python run_eval.py --judge openai
 ### Dashboard Overview
 The main dashboard shows the RAG pipeline flow, vector store stats (21 chunks in ChromaDB), service endpoints, and quick-launch buttons.
 
+![Dashboard Overview](screenshots/01-dashboard-overview.png)
+
 ### Chatbot Interface
 Live chat with ShopBot — handles product queries, shipping, returns, discounts, and order tracking with quick-topic buttons.
 
+![Chatbot](screenshots/02-chatbot.png)
+
 ### RAG Explorer
-Query the knowledge base and see LLM-generated answers grounded in retrieved document chunks with similarity scores.
+Query the knowledge base and see LLM-generated answers grounded in retrieved document chunks with similarity scores. Browse all stored chunks on the right panel.
+
+![RAG Explorer](screenshots/03-rag-explorer.png)
 
 ### Evaluation Metrics
 15 metric cards with live progress, per-test-case pass/fail dots, score vs threshold comparison, and auto-generated fine-tuning suggestions for failed metrics.
+
+![Evaluations](screenshots/04-evaluations.png)
+
+### Metric Detail View
+Click any metric card to drill down — see every test case with score vs threshold, pass/fail status, failed rows highlighted in red, and full justification from the judge LLM.
+
+![Metric Detail](screenshots/05-metric-detail.png)
 
 ---
 
