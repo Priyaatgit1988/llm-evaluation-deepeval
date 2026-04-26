@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+chroma_db/
+build/
+dist/
+.pytest_cache/
+.deepeval/
+node_modules/
+package-lock.json
+.env
